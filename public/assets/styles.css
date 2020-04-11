@@ -1,0 +1,159 @@
+/* ul div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: thistle;
+} */
+
+body {
+  background-color: seagreen;
+}
+
+form {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  max-width: 600px;
+  margin-top: 20px !important;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+}
+
+.form-success {
+  background-color: red;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  max-width: 900px;
+
+  height: 80vh;
+}
+
+@keyframes example {
+  100% {
+    margin-top: 20px;
+  }
+}
+
+table thead tr {
+  color: white;
+}
+
+.div-show {
+  background: white;
+  max-width: 980px;
+  margin-top: 20px !important;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.league {
+  background-color: gray !important;
+  color: #ee0979;
+}
+
+.avangers {
+  background-color: whitesmoke;
+  color: black !important;
+}
+
+.reservado {
+  /* background-color: purple;
+  color: white; */
+}
+.title-div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  color: seashell;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.div-map div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.div-form-show {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* color: black; */
+}
+
+.btn-back {
+  margin-top: 20px;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.div-form-show span {
+}
+.todo-table {
+  background-color: red;
+}
+.h4-success {
+  text-align: center;
+  color: whitesmoke;
+}
+h3 {
+  color: whitesmoke;
+}
+
+label {
+  color: whitesmoke !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  color: whitesmoke !important;
+}
+input[type="checkbox"] {
+  background-color: whitesmoke !important;
+}
+
+[type="checkbox"] + span:not(.lever):before {
+  border: 2px solid whitesmoke;
+}
+
+.border-red {
+  border: 1px solid red;
+}
+
+.bold {
+  font-weight: bold;
+  color: crimson;
+}
+
+.show {
+  display: block;
+}
+
+.my-email,
+.my-telephone,
+.my-codiname,
+.my-group {
+  color: orangered;
+}
+.name-group-hide {
+  margin-top: 10px;
+  color: red;
+  background-color: black;
+  display: grid;
+}
